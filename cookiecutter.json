@@ -1,0 +1,17 @@
+{
+  "connection_string": "",
+  "password_in_environment": "n",
+  "_foldername": "sqlazure_django_connector",
+  "_visual_studio": {
+    "connection_string": {
+      "label": "Connection String",
+      "description": "The ODBC connection string to connect to your database",
+      "selector": "odbcConnection"
+    },
+    "password_in_environment": {
+      "label": "Use Password from Environment",
+      "description": "Reads connection password from DB_PASSWORD instead of storing it in the configuration.",
+      "selector": "yesno"
+    }
+  }
+}
