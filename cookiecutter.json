@@ -13,5 +13,11 @@
       "description": "Reads connection password from DB_PASSWORD instead of storing it in the configuration.",
       "selector": "yesno"
     }
-  }
+  },
+  "_visual_studio_post_cmds": [
+    {
+      "name": "Python.InstallProjectRequirements",
+      "args": "{{cookiecutter._output_folder_path}}\\sqlazure_requirements.txt"
+    }
+  ]
 }
